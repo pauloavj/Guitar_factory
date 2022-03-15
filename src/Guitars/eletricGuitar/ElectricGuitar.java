@@ -1,6 +1,8 @@
-package Guitars;
+package Guitars.eletricGuitar;
 
-public class ElectricGuitar extends Guitars{
+import Guitars.Guitars;
+
+public class ElectricGuitar extends Guitars {
     private String output;//mono or stereo
 
     public ElectricGuitar(String brand, String model, int year, String output) {

@@ -1,5 +1,5 @@
-import Guitars.AcousticGuitar;
-import Guitars.ElectricGuitar;
+import Guitars.acousticGuitar.AcousticGuitar;
+import Guitars.eletricGuitar.ElectricGuitar;
 import Guitars.Guitars;
 
 import java.util.ArrayList;
@@ -19,7 +19,5 @@ public class Main {
         for (Guitars guitars: myGuitars) {
             guitars.makeSound();
         }
-
-
     }
 }

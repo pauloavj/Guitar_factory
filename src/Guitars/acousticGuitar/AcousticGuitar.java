@@ -1,4 +1,6 @@
-package Guitars;
+package Guitars.acousticGuitar;
+
+import Guitars.Guitars;
 
 public class AcousticGuitar extends Guitars {
 
