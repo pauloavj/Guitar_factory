@@ -1,5 +1,5 @@
 package Guitars;
 
-public interface MakeSound {
+public interface Playable {
     void makeSound();
 }

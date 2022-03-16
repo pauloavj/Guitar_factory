@@ -3,11 +3,11 @@ package Guitars.eletricGuitar;
 import Guitars.Guitars;
 
 public class ElectricGuitar extends Guitars {
-    private String output;//mono or stereo
+    private String pickups;//mono or stereo
 
-    public ElectricGuitar(String brand, String model, int year, String output) {
+    public ElectricGuitar(String brand, String model, int year, String pickups) {
         super(brand, model, year);
-        this.output = output;
+        this.pickups = pickups;
     }
 
     @Override

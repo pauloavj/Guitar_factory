@@ -1,6 +1,6 @@
 package Guitars;
 
-public abstract class Guitars implements MakeSound {
+public abstract class Guitars implements Playable {
     private String brand;
     private String model;
     private int year;
@@ -13,6 +13,4 @@ public abstract class Guitars implements MakeSound {
     }
 
     public abstract void makeSound();
-//    public abstract void makeSound();
 }
-
